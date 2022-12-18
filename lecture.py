@@ -1,9 +1,10 @@
 
-# number1 = int(input('Введите первое число '))
-# number2 = int(input('Введите второе число '))
-#
-# if number1 != number2 ** 2 and number2 != number1 ** 2:
-#     print('no')
-# else:
-#     print('yes')
+#1. Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
 
+n = int(input('Insert a number: '))
+if 5 < n < 8:
+    print("Day-off")
+elif 0 < n < 6:
+    print("Working days")
+else:
+    print("Incorrect number")
